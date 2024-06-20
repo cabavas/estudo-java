@@ -20,7 +20,7 @@ public class Main {
         double payment = is.payment(amount, months);
 
         System.out.println("Payment after " + months + " months: ");
-        System.out.println(String.format("%.2f", payment));
+        System.out.printf("%.2f%n", payment);
 
         sc.close();
     }
